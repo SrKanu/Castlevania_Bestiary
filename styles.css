@@ -1,0 +1,63 @@
+:root {
+    --primary: #edca0d;
+    --secondary: #000000;
+    --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-image: url(./assets/wallpaper.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: var(--primary);
+    background-color: var(--secondary);
+}
+
+header {
+    padding: 30px;
+    text-align: center;
+}
+
+input {
+    border: 2px solid #edca0d;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.search img {
+    width: 20px;
+    height: 20px;
+}
+
+
+.heart {
+    display: flex;
+   justify-content: center;
+   margin-bottom: 50px;
+}
+
+.heart img {
+      height: 150px;
+      
+   
+}
+
+
+.bestiary {
+    display: flex;
+    justify-content: center;
+}
