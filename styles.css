@@ -9,7 +9,9 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-}
+    }
+
+
 
 
 * {
@@ -52,12 +54,22 @@ input {
 
 .heart img {
       height: 150px;
-      
-   
 }
 
 
 .bestiary {
+    margin: 0;
+    padding: 0;
+    list-style: none;
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 15px;
+    position: absolute;
+}
+
+.bestiary img {
+    box-shadow: 2px 2px 3px 0 rgb(73, 39, 77), 4px 4px 9px 0 rgb(247, 223, 127);
+    border-radius: 20px;
+    border: 2px solid #faf8f8;
 }
